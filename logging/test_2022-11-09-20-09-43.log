@@ -1,0 +1,54 @@
+2022-11-09 20:09:49.980 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:49.981 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:49.982 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:49.983 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:49.984 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958246, 'password': 'aa123456'}
+2022-11-09 20:09:49.985 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 200, 'description': '登录成功'}
+2022-11-09 20:09:49.985 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:49.987 | DEBUG    | until.assert_utils:validate:46 - [status]的期望值:[200] != 实际值:[100]:
+2022-11-09 20:09:49.987 | WARNING  | until.assert_utils:validate:47 - ------------------测试结束------------------
+2022-11-09 20:09:50.749 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:50.750 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:50.751 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:50.751 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:50.752 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958247, 'password': 'aa123456'}
+2022-11-09 20:09:50.752 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:50.753 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:50.756 | DEBUG    | until.assert_utils:validate:54 - 没有问题了，断言通过，下班
+2022-11-09 20:09:50.756 | WARNING  | until.assert_utils:validate:55 - ------------------测试结束------------------
+2022-11-09 20:09:50.811 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:50.811 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:50.812 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:50.812 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:50.813 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958246, 'password': ''}
+2022-11-09 20:09:50.814 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 100, 'description': '密码不能为空'}
+2022-11-09 20:09:50.814 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '密码不能为空'}
+2022-11-09 20:09:50.816 | DEBUG    | until.assert_utils:validate:54 - 没有问题了，断言通过，下班
+2022-11-09 20:09:50.817 | WARNING  | until.assert_utils:validate:55 - ------------------测试结束------------------
+2022-11-09 20:09:50.873 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:50.874 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:50.874 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:50.876 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:50.876 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958246, 'password': 'aa123457'}
+2022-11-09 20:09:50.877 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 100, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-11-09 20:09:50.878 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:50.880 | DEBUG    | until.assert_utils:validate:46 - [description]的期望值:[密码错误1次,达到3次将锁定账户] != 实际值:[用户不存在]:
+2022-11-09 20:09:50.880 | WARNING  | until.assert_utils:validate:47 - ------------------测试结束------------------
+2022-11-09 20:09:50.947 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:50.948 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:50.949 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:50.950 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:50.950 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958246, 'password': 'aa123457'}
+2022-11-09 20:09:50.951 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 100, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-11-09 20:09:50.952 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:50.952 | DEBUG    | until.assert_utils:validate:46 - [description]的期望值:[密码错误2次,达到3次将锁定账户] != 实际值:[用户不存在]:
+2022-11-09 20:09:50.956 | WARNING  | until.assert_utils:validate:47 - ------------------测试结束------------------
+2022-11-09 20:09:51.025 | WARNING  | until.request_util:send_all_request:24 - ------------------测试开始------------------
+2022-11-09 20:09:51.025 | INFO     | until.request_util:send_all_request:27 - 请求地址：http://user-p2p-test.itheima.net/member/public/login
+2022-11-09 20:09:51.026 | INFO     | until.request_util:send_all_request:27 - 请求方式：post
+2022-11-09 20:09:51.027 | INFO     | until.request_util:send_all_request:27 - 请求头：{'Content-Type': 'application/x-www-form-urlencoded'}
+2022-11-09 20:09:51.027 | INFO     | until.request_util:send_all_request:27 - 请求数据：{'keywords': 17026958246, 'password': 'aa123457'}
+2022-11-09 20:09:51.028 | INFO     | test_api:test_login_success:29 - 预期结果：{'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-11-09 20:09:51.029 | INFO     | test_api:test_login_success:30 - 实际结果：{'status': 100, 'description': '用户不存在'}
+2022-11-09 20:09:51.030 | DEBUG    | until.assert_utils:validate:46 - [description]的期望值:[由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录] != 实际值:[用户不存在]:
+2022-11-09 20:09:51.030 | WARNING  | until.assert_utils:validate:47 - ------------------测试结束------------------

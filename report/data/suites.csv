@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 09 20:09:50 CST 2022","Wed Nov 09 20:09:50 CST 2022","56","testcase","test_api","TestApi","","","test_case_003登录失败（密码不能为空）",""
+"failed","Wed Nov 09 20:09:50 CST 2022","Wed Nov 09 20:09:50 CST 2022","55","testcase","test_api","TestApi","","","test_case_004登录失败（密码错误1次）",""
+"failed","Wed Nov 09 20:09:50 CST 2022","Wed Nov 09 20:09:50 CST 2022","56","testcase","test_api","TestApi","","","test_case_005登录失败（密码错误2次）",""
+"failed","Wed Nov 09 20:09:49 CST 2022","Wed Nov 09 20:09:49 CST 2022","156","testcase","test_api","TestApi","","","test_case_001登录成功",""
+"failed","Wed Nov 09 20:09:50 CST 2022","Wed Nov 09 20:09:51 CST 2022","52","testcase","test_api","TestApi","","","test_case_006登录失败（密码错误3次）",""
+"passed","Wed Nov 09 20:09:50 CST 2022","Wed Nov 09 20:09:50 CST 2022","65","testcase","test_api","TestApi","","","test_case_002登录失败（用户不存在）",""
